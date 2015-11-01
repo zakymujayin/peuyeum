@@ -1,2 +1,5 @@
-/cache/
+/app/cache/
 /config/development/
+.DS_Store
+*.DS_Store*
+
