@@ -8,8 +8,8 @@ class SendController extends \Phalcon\Mvc\Controller
 		$this->view->title = "Send - ";
 		$this->view->selectmenu	= "send";
 		$params = array(
-		   "rcpt" => "081312000300",
-		   "msg" => "dari php cocoba malam hari nih"
+		   "rcpt" => "089649319613",
+		   "msg" => "testing dari laptop zaki okeh"
 		);
 		$response = $this->smsweb->post('http://batikku.ml/s.py',$params);
 		$this->view->response = $response;
